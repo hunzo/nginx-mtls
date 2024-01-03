@@ -1,5 +1,19 @@
 # Nginx mTls
 
+## docker
+
+### build images
+
+```bash
+docker build -t mynginx .
+```
+
+### start container
+
+```bash
+docker run --rm -d -p 443:443 mynginx
+```
+
 ```bash
 curl https://server.local.dev
 ```
