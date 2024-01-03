@@ -14,6 +14,8 @@ docker build -t mynginx .
 docker run --rm -d -p 443:443 mynginx
 ```
 
+### curl test
+
 ```bash
 curl https://server.local.dev
 ```
